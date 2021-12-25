@@ -1,0 +1,39 @@
+.header {
+  background-color: #2a2a72;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+.logo {
+  object-fit: contain;
+  max-width: 120px;
+  margin-right: auto;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.menu_item {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.menu_item a,
+.menu_option {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+a.menu_icon {
+  align-items: center;
+  flex-direction: row;
+}
